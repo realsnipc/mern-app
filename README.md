@@ -1,4 +1,4 @@
-# express-app
+# mern-app
 Save up time setting up initial mern project. 🍃
 
 ## Simple Setup
