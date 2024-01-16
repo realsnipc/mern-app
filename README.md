@@ -1,7 +1,7 @@
 # mern-app
 Save up time setting up initial mern project. 🍃
 
-## Simple Setup
+## Server Setup
 
 #### Server Comes with
 - Express.js
@@ -9,6 +9,10 @@ Save up time setting up initial mern project. 🍃
 - Nodemon
 
 Hit `npm install` or `npm i` to get all the essential packages.
+
+```
+cd api
+```
 ```
 npm i
 ```
