@@ -16,9 +16,12 @@
   "bugs": {
     "url": "https://github.com/realsnipc/mern-app"
   },
-  "homepage":"",
+  "homepage": "",
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
