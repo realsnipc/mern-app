@@ -3,6 +3,7 @@ Save up time setting up a mern project 🍃
 
 ## Server Setup
 
+
 #### Dependencies
 - Express.js
 - Mongoose
@@ -10,11 +11,11 @@ Save up time setting up a mern project 🍃
 #### Dev-Dependencies
 - Nodemon
 
-Hit `npm install` or `npm i` to get all the essential packages.
+Customize `package.json` then hit `npm install` to get all the essential packages.
 
 ```
 cd api
 ```
 ```
-npm i
+npm install
 ```
