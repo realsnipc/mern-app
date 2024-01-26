@@ -1,13 +1,21 @@
-# mern-app
+# New Web App 🚀
 
-Save time setting up your new web appplication 🚀
+Template to save your time setting up new initial web appplication with pre configured utilities and middleware.
 
 ## Server Setup
+
+#### Utils
+
+- CORS
+- Api Error Utility
+- Api Response Utility
+- MongoDB Connection
 
 #### Dependencies
 
 - Express.js
 - Mongoose
+- Cors
 
 #### Dev-Dependencies
 
