@@ -1,6 +1,9 @@
-import cors from 'cors';
-import {CLIENT_URL} from '../constants';
+const cors = require("cors");
+const { CLIENT_URL } = require("../constants");
 
-export default cors({
-    origin:"http://localhost:5173" && CLIENT_URL,
+const corsMiddleware = cors({
+  origin: "http://localhost:5173" && CLIENT_URL,
 });
+module.exports = { 
+    default: corsMiddleware 
+};

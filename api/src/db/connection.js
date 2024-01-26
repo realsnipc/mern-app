@@ -1,11 +1,12 @@
-const mongoose= require("mongoose");
-const constants= require('constants.js');
+const mongoose = require("mongoose");
+const { MONGO_URI, DB_USER, DB_PASS } = require("../constants.js");
 
-// MongoDB connection string
-connectingString= ``
-
-mongoose.connect(connectingString).then(()=>{
-    console.log("Connection to MongoDB successful.")
-}).catch((err)=>{
-    console.log("Connection to MongoDB failed!" + err)
-});
+const connectionString = ``;
+mongoose
+  .connect(connectionString)
+  .then(() => {
+    console.log("Connection to MongoDB successful.");
+  })
+  .catch((err) => {
+    console.log("Connection to MongoDB failed!" + err);
+  });
